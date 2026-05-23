@@ -7,7 +7,6 @@ import FontSlider from '../Components/FontSlider';
 import SocialCard from '../Components/SocialCard';
 import ProjectCard from '../Components/ProjectCard';
 
-// Helper wrapper to render components with Theme & Font context scopes
 const renderWithProviders = (ui) => {
   return render(
     <ThemeProvider>

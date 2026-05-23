@@ -5,11 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Icon } from '@rneui/themed';
 
-// Contexts
 import { ThemeProvider, useTheme } from './Context/ThemeContext';
 import { FontProvider, useFont } from './Context/FontContext';
 
-// Screens
 import ProfileScreen from './Screens/ProfileScreen';
 import Semester1Screen from './Screens/Semester1Screen';
 import Semester2Screen from './Screens/Semester2Screen';
